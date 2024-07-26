@@ -7,7 +7,14 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            font-size: 18px; /* Increased font size */
             margin: 20px;
+            background-color: #fff;
+            color: #000;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
         }
         .container {
             max-width: 800px;
@@ -28,12 +35,15 @@
             border-bottom: 2px solid #000;
             padding-bottom: 5px;
         }
+        .dark-mode .section h2 {
+            border-bottom: 2px solid #e0e0e0;
+        }
         .education-item {
             margin-bottom: 15px;
         }
     </style>
 </head>
-<body>
+<body class="dark-mode">
     <div class="container">
         <div class="header">
             <img src="/foto.jpeg" alt="Foto de Santiago Espinosa Giraldo">
@@ -44,10 +54,14 @@
             <div class="education-item">
                 <h3>Ingeniería de Sistemas</h3>
                 <p>Universidad ICESI, 2023 - 2027</p>
-                <p>Descripción: </p>
-            </div>
-            <div class="education-item">
-                
+                <p>Descripción: Nuestro programa se distingue por su énfasis en Ingeniería de
+                    Software. Este enfoque proporciona habilidades avanzadas en Análisis
+                    y Diseño de soluciones de software, detallado diseño de sistemas en
+                    diversas plataformas y tecnologías, y formación como arquitecto e
+                    ingeniero de despliegue de vanguardia. Formamos profesionales con
+                    certificaciones en Ingeniería de Software. Además, la sinergia con la
+                    industria se refleja en Bootcamps, prácticas intersemestrales y cursos
+                    certificados en tecnologías líderes de la industria.</p>
             </div>
         </div>
     </div>
